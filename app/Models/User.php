@@ -44,6 +44,7 @@ class User extends Authenticatable
 
     public function profile()
     {
+        // Un usuario pertenece a un perfil
         return $this->hasOne(UserProfile::class);
     }
 }
