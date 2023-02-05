@@ -19,8 +19,6 @@ class UserTest extends TestCase
      */
     public function can_get_the_user_profile_associated_to_a_user()
     {
-        $this->markTestIncomplete();
-
         $user = User::factory()->create();
         $userProfile = UserProfile::factory()->create([
             'website' => 'https://thesnakebite.es',

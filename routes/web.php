@@ -22,5 +22,4 @@ Route::get('has-one', function () {
     $user = User::first();
 
     return $user->profile;
-    
 });
